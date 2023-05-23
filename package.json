@@ -1,0 +1,29 @@
+{
+  "name": "api_proxy",
+  "version": "1.0.0",
+  "description": "This is a node.js application that will serve as a proxy for the OAuth for student projects",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krausyd/api_proxy.git"
+  },
+  "keywords": [
+    "nodejs",
+    "node",
+    "proxy",
+    "apikey",
+    "oauth"
+  ],
+  "author": "krausyd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krausyd/api_proxy/issues"
+  },
+  "homepage": "https://github.com/krausyd/api_proxy#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
