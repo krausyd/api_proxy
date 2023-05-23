@@ -1,10 +1,10 @@
 const express = require('express');
 const app = express();
-const port=8000;    
+const port= process.env.PORT || 3000;
 const keys = require("./apiKeys.json");
 
 app.get('/', (req, res) => {
-    res.send('This is the api proxy');
+    res.send('This is the api proxy, to use it to get a token for your OAuth api, please do a GET request to https://bootcamp-apiproxy.herokuapp.com/token/{apikey}, replacing {apikey} with the api key given by your instructor.');
 });
 
 

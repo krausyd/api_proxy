@@ -4,7 +4,8 @@
   "description": "This is a node.js application that will serve as a proxy for the OAuth for student projects",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server"
   },
   "repository": {
     "type": "git",
