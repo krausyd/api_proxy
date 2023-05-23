@@ -14,11 +14,7 @@ app.get('/token/:apikey', async (req, res) => {
     if (dataKey) {
         const response = await fetch(dataKey.url, {
             method: 'POST',
-            body: JSON.stringify({
-                "grant_type": "client_credentials",
-                "client_id": dataKey.client_id,
-                "client_secret": dataKey.client_secret,
-            }),
+            body: JSON.stringify(dataKey.body),
             headers: {
                 'Content-type': 'application/json; charset=UTF-8'
             },
